@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+    body{
+    color: #fff;
+    background-color: rgb(23, 22, 22);
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+nav h2 {
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15%;
+    gap: 10rem;
+    
+}
+section{
+    display: flex;
+    margin: 50px;
+    padding: 5px;
+}
+.droite{
+    width: 100%;
+}
+.gauche{
+    align-items: center;
+    display: flex;
+}
+#router{
+    width: 100%;
+}
+.titre{
+    font-size: 5rem;
+}
+.stitre{
+    font-size: 2rem;
+    color: blue;
+}
+#para{
+    font-size: 0.8rem;
+}
+.foot{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+}
+.left{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+}
+button{
+    background-color: #474dff;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+}
+.right{
+    width: 67%;
+}
+.im{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 67%;
+}
+.im img{
+width: 80px;
+}
+
+
+/* Responsivité */
+@media screen and (max-width:1030px)  {
+    .titre{
+      font-size: 2.5rem; 
+    }
+    .stitre{
+        font-size: 1.5rem;
+    }
+    #para{
+        font-size: 0.7rem;
+    }
+    
+}
+@media screen and (max-width:800px)  {
+    .right{
+        width: 50%;
+    }
+    
+}
+
+
+@media screen and (max-width:700px)  {
+    li{
+        font-size: 0.8rem;
+    }
+    .titre{
+      font-size: 1.5rem; 
+    }
+    .stitre{
+        font-size: 1rem;
+    }
+    #para{
+        font-size: 0.6rem;
+    }
+}
+.im img{
+    width: 50px;
+    }
+    button{
+        width: 80px;
+        height: 40px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        margin: 7px;
+    }
